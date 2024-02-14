@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.glass-container {
+    width: calc(630px * 0.80);
+    height: calc(580px * 0.80);
+    position: fixed;
+    z-index: 100;
+    background: linear-gradient(180deg, rgba(239,239,239,1) 0%, rgba(246,246,246,0.24) 100%);    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Montserrat", sans-serif;
+    transition: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.glass-container ::after {
+    transform: scale(1px);
+}
+
+/* Add a media query for smaller screens */
+@media only screen and (max-width: 600px) {
+    .glass-container {
+        width: 80%;
+        height: auto;
+        left: 50%;
+        top: 50%;
+    }
+}
+
+.login-box {
+    max-width: 501px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#login-heading {
+    color: #000000;
+    margin-top: 30px;
+    margin-bottom: -20px;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.radio-toolbar input[type="radio"] {
+    opacity: 0;
+    margin: 20px;
+  }
+
+  .radio-toolbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .radio-toolbar label {
+    /* display: block; */
+    background-color: #ddd;
+    padding: 10px 20px;
+    font-family: sans-serif, Arial;
+    font-size: 16px;
+    
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.radio-toolbar input[type="radio"]:focus + label {
+    border: 2px dashed #444;
+}
+
+.radio-toolbar input[type="radio"]:checked + label {
+    background-color:#F3F2F3;
+    border-color: #2B0D68;
+}
+
+.input-field {
+    padding: 10px;
+    margin-top: 25px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    background: transparent;
+    color: #000000;
+    font-size: 13px;
+    max-width: 400px;
+    width: auto;
+}
+
+.input-field::placeholder {
+    color: #000000;
+}
+
+.input-field:focus {
+    outline: none;
+}
+
+.loginBtn {
+    background: #fff;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.loginBtn:hover {
+    background: transparent;
+    color: #000000;
+    outline: 1px solid #fff;
+}
+
+.message {
+    font-size: 12px;
+    color: #000000;
+    margin-top: 15px;
+}
+
+#register-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}

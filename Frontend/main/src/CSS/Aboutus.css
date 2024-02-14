@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*{
+    list-style: none;
+}
+
+.BottomMainDiv{
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-evenly;
+    width: 100vw;
+
+}
+
+
+
+.boxesOfAdv{
+    width: fit-content;
+}
+
+.WhatWeDO{
+    width: 540px;
+}
+
+.buyerListOfAdv, .sellerListOfAdv, .performanceListOfAdv{
+    display: block;
+    text-align: justify;
+
+
+}
+
+
+
+.boxOfList{
+    margin: 10px;
+    width: calc(440px * 0.80);
+    border-radius: 15px;
+}
+
+
+.div1{
+    background-color: #CAAFFF;
+}
+.div2{
+    background-color: #DCF2F1;
+}
+
+.div3{
+    background-color: #90BAFF;
+}
+
+.div1, .div2, .div3{
+    padding: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px ;
+
+
+}
+
+#buyerHeadingAboutus
+{
+    font-size: 15px;
+    font-weight: 600;
+}
+#sellerHeadingAboutus
+{
+    font-size: 15px;
+    font-weight: 600;
+}
+#performanceExcellence
+{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+b{
+    font-weight: 500;
+}
+
+
+
+.listContainer{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 11px;
+}
+
+.listContainer li{
+    margin-top: 8px;
+}
+
+.WhatWeDO{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    height: 100vh;
+    
+}
+
+#whatWeDOHeading{
+    font-family: "Montserrat", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+   
+}
+
+#whatwedocontent{
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+#whatwedocontent br {
+    margin-bottom:  2px; /* Adjust the value to set the desired spacing */
+}
+
+.paragraph{
+    margin-bottom: 15px;
+}

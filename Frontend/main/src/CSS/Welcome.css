@@ -1,0 +1,118 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+body{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y:visible !important;
+    /* background:url("./background.svg"); */
+    background-size: cover;
+
+}
+
+.Main{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+   
+}
+
+.TopDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.WelcomeGreet{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size:calc(40px * 0.80);
+    margin: 0 auto;
+}
+
+.singleLetterColor{
+    color: #591BD5;
+}
+
+
+.WelcomeSubHeadline{
+    font-family: "Montserrat", sans-serif;
+    font-weight:500;
+    font-size: calc(18px * 0.80);
+    text-align: center;
+    margin-top: calc(5px * 0.80);
+}
+
+
+.divider{
+    width: 95%;
+    margin: 2px auto;
+    height: 2px;
+    background-color: #D9D9D9;
+}
+
+
+.tryItNow{
+    margin-top: calc(30px * 0.80);
+    background-color: #591BD5;
+    width: calc(200px * 0.80);
+    height: calc(48px * 0.80);
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: calc(20px * 0.80);
+    font-weight: 700;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.tryItNow button{
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.484));
+}
+
+.parentOfInfo{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+    gap: calc(300px * 0.80);
+    padding-top: calc(50px * 0.80);
+    font-size: calc(18px * 0.80);
+    font-family: "Montserrat", sans-serif;
+    line-height: 155%;
+    text-align: justify;
+}
+
+
+
+.sellerInfo, .buyerInfo{
+    width: calc(450px - (492px * 0.20));
+    height: fit-content;
+    background-color: #dcf2f1;
+    padding:  calc( 20px * 0.80);
+    padding-bottom: 20px;
+    border-radius: 13px;
+    filter: drop-shadow(2px 3px 10px rgba(0, 0, 0, 0.311));
+}
+
+.buyerHeading, .sellerHeading{
+    text-align: center;
+    font-weight:500;
+    font-size: calc(25px * 0.80);
+    
+
+}
+
+.Main.blurred .glass-container {
+    filter: none; /* Reset filter for the Login component within blurred container */
+  }
+
+  .Main.blurred {
+    filter: blur(2px); /* Adjust the blur intensity as needed */
+  }

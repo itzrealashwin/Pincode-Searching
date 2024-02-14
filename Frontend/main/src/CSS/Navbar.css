@@ -1,0 +1,179 @@
+/* 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+.logo-bg {
+  display: inline-block;
+  width: calc(400px * 0.80);
+}
+.navItems-div {
+  display: inline-block;
+  width: calc(100% - 400px);
+  margin: 0 auto;
+}
+
+li {
+  display: inline;
+}
+
+.navbarItems {
+  font-family: "Montserrat", sans-serif;
+  font-weight: calc(400 * 0.80);
+  font-size: calc(1.2em * 0.80);
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(10vh * 0.80);
+}
+.navbar {
+  height: calc(90px * 0.80);
+  background-color: #dcf2f1;
+  display: flex;
+  justify-content: center;
+  max-height: calc(10vh * 0.80);
+  filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.295));
+}
+
+.logo {
+  display: inline-block;
+  width: calc(35vh * 0.80);
+  max-width: calc(264px * 0.80);
+  margin-left: calc(50px * 0.80);
+  min-width: calc(40px * 0.80);
+}
+
+.ringOfBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(138px * 0.80);
+  height: calc(43px * 0.80);
+  background: linear-gradient(#dcf2f1, #dcf2f1) padding-box,
+              linear-gradient(90deg, #3b71ca, #7aa2e4) border-box;
+  border-radius: calc(50em * 0.80);
+  border: 3px solid transparent;
+}
+
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.hamBurgerButton {
+  display: none;
+  justify-content: center;
+  align-items:  center;
+} */
+
+
+
+/* Navbar.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+.logo-bg {
+  display: inline-block;
+  width: calc(400px * 0.80);
+}
+
+.navItems-div {
+  display: inline-block;
+  width: calc(100% - 400px);
+  margin: 0 auto;
+}
+
+/* li {
+  display: inline;
+} */
+
+.navbarItems {
+  font-family: "Montserrat", sans-serif;
+  font-weight: calc(400 * 0.80);
+  font-size: calc(1.2em * 0.80);
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(10vh * 0.80);
+}
+
+.navbar {
+  height: calc(90px * 0.80);
+  background-color: #dcf2f1;
+  display: flex;
+  justify-content: center;
+  max-height: calc(10vh * 0.80);
+  filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.295));
+  width: 100vw;
+}
+
+.logo {
+  display: inline-block;
+  width: calc(35vh * 0.80);
+  max-width: calc(264px * 0.80);
+  margin-left: calc(50px * 0.80);
+  min-width: calc(40px * 0.80);
+}
+
+.ringOfBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(138px * 0.80);
+  height: calc(43px * 0.80);
+  background: linear-gradient(#dcf2f1, #dcf2f1) padding-box,
+              linear-gradient(90deg, #3b71ca, #7aa2e4) border-box;
+  border-radius: calc(50em * 0.80);
+  border: 3px solid transparent;
+}
+
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.hamBurgerButton {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.hamBurgerButton.open {
+  transform: translateX(0%);
+}

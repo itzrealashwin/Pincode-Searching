@@ -1,0 +1,63 @@
+@media screen and (max-width: 900px) {
+  .navItems-div {
+    display: none;
+  }
+
+  .hamBurgerButton {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .parentOfInfo {
+    gap: 10px;
+    flex-direction: column;
+    
+  }
+  .sellerInfo,
+  .buyerInfo {
+    width: calc(50vw);
+
+  }
+
+}
+
+@media screen and (max-width: 425px) {
+  .parentOfInfo {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .sellerInfo,
+  .buyerInfo {
+    width: calc(90vw);
+  }
+
+  .footerBg{
+    flex-direction: column;
+  }
+
+  .formFlex{
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+ .BottomMainDiv{
+  flex-direction: column;
+ }
+
+ .div1, .div2, .div3{
+    width: 90vw;
+ }
+
+ #whatwedocontent{
+  width: 90vw;
+ }
+ .WhatWeDO{
+  width: 90vw;
+ }
+}
