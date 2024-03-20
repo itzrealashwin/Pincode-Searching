@@ -8,7 +8,8 @@ function Searchbar() {
   const [state, setState] = useState(false);
   const [inpVal, setInp] = useState("");
 
-  async function handleData() {
+  async function handleData(event) {
+    event.preventDefault();
     await axios
       .get(
         `http://localhost:5000/api/search/searchpincode?pincodeToSearch=${parseInt(

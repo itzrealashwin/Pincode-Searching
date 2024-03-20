@@ -65,7 +65,7 @@ function Login({ Styling , setStyle}) {
           />
 
           <p className="message">
-            Don't have an account? 
+            Don't have an account?  {" "}
             <NavLink to="/register" id="register-link">
               Click Here to register
             </NavLink>
